@@ -1,3 +1,8 @@
+## Name  : download_cf_components.pl
+## Due to: poor domestic internet.  
+## How to: Run it on a US host and scp downloaded files to local host. 
+## Description: Use Perl fork to download and scp the files parallelly.
+
 use POSIX ":sys_wait_h";
 use Net::SCP::Expect;
 use warnings;

@@ -1,12 +1,15 @@
 #Tools
 ## deployDashboard.pl
-syn files from P4 server --> copy files to production directory --> restart Apache service
+Syn files from P4 server --> copy files to production directory --> restart Apache service
 
 ## backup_mongodb.pl
-remove the last backup --> create current backup --> notify Admin
+Remove the last backup --> create current backup --> notify Admin
 
 ## excel2json.pl extract_data.pl
-the former script is for traversing data in excel to json format, the latter one is an demo script.
+The former script is for traversing data in excel to json format, the latter one is an demo script.
 
 ## reaper_demo.pl
-a demo that describes a REAPER
+A demo that describes a REAPER
+
+## download_cf_components.pl
+A download tool by using multi-process. CloudFoundry related files are hard coded. 

@@ -69,15 +69,18 @@ while(1){
 __END__
 ## Ubuntu trusty
 my %uri = (
-    'vagrant_1.8.6_x86_64.deb' => 'https://releases.hashicorp.com/vagrant/1.8.6/vagrant_1.8.6_x86_64.deb',
-    'virtualbox-5.1_5.1.6-110634-Ubuntu-trusty_amd64.deb' => 'http://download.virtualbox.org/virtualbox/5.1.6/virtualbox-5.1_5.1.6-110634~Ubuntu~trusty_amd64.deb',
-    'virtualbox_trusty64.box' => 'https://atlas.hashicorp.com/ubuntu/boxes/trusty64/versions/20161005.0.0/providers/virtualbox.box',
-    'virtualbox_precise64_.box' => 'https://atlas.hashicorp.com/hashicorp/boxes/precise64/versions/1.1.0/providers/virtualbox.box',
-); 
+	'vagrant_1.8.6_x86_64.deb' => 'https://releases.hashicorp.com/vagrant/1.8.6/vagrant_1.8.6_x86_64.deb',
+	'virtualbox-5.1_5.1.6-110634-Ubuntu-trusty_amd64.deb' => 'http://download.virtualbox.org/virtualbox/5.1.6/virtualbox-5.1_5.1.6-110634~Ubuntu~trusty_amd64.deb',
+	'Oracle_VM_VirtualBox_Extension_Pack-5.1.6-110634.vbox-extpack' => 'http://download.virtualbox.org/virtualbox/5.1.6/Oracle_VM_VirtualBox_Extension_Pack-5.1.6-110634.vbox-extpack',
+	'virtualbox_trusty64.box' => 'https://atlas.hashicorp.com/ubuntu/boxes/trusty64/versions/20161005.0.0/providers/virtualbox.box',
+	'virtualbox_precise64_.box' => 'https://atlas.hashicorp.com/hashicorp/boxes/precise64/versions/1.1.0/providers/virtualbox.box',
+);
+
 ## MAC OS
 my $uri = (
-    'vagrant_1.8.6.dmg'             =>      'https://releases.hashicorp.com/vagrant/1.8.6/vagrant_1.8.6.dmg',
-    'VirtualBox-5.1.6-110634-OSX.dmg' => 'http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1.6-110634-OSX.dmg',
-    'virtualbox-5.1_5.1.6-110634-Ubuntu-trusty_amd64.deb' => 'http://download.virtualbox.org/virtualbox/5.1.6/virtualbox-5.1_5.1.6-110634~Ubuntu~trusty_amd64.deb',
-    'virtualbox_trusty64.box' => 'https://atlas.hashicorp.com/ubuntu/boxes/trusty64/versions/20161005.0.0/providers/virtualbox.box',
+	'vagrant_1.8.6.dmg' => 'https://releases.hashicorp.com/vagrant/1.8.6/vagrant_1.8.6.dmg',
+	'VirtualBox-5.1.6-110634-OSX.dmg' => 'http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1.6-110634-OSX.dmg',
+	'Oracle_VM_VirtualBox_Extension_Pack-5.1.6-110634.vbox-extpack' => 'http://download.virtualbox.org/virtualbox/5.1.6/Oracle_VM_VirtualBox_Extension_Pack-5.1.6-110634.vbox-extpack',
+	'virtualbox-5.1_5.1.6-110634-Ubuntu-trusty_amd64.deb' => 'http://download.virtualbox.org/virtualbox/5.1.6/virtualbox-5.1_5.1.6-110634~Ubuntu~trusty_amd64.deb',
+	'virtualbox_trusty64.box' => 'https://atlas.hashicorp.com/ubuntu/boxes/trusty64/versions/20161005.0.0/providers/virtualbox.box',
 );
